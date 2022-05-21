@@ -1,3 +1,8 @@
+LLM_TARGET	= -target i486-elf
+
+CC	= clang $(LLM_TARGET)
+LD	= ld.lld
+
 .include <bsd.own.mk>
 
 SUBDIR+=	include .WAIT
