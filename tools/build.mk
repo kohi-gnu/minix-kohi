@@ -1,0 +1,1 @@
+GENASSYM = $(TOOLSDIR)/genassym.sh

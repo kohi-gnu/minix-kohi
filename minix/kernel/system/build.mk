@@ -32,7 +32,8 @@ KERNEL_SYSTEM_SRCS = do_fork.c \
 	do_mcontext.c \
 	do_schedule.c \
 	do_schedctl.c \
-	do_statectl.c
+	do_statectl.c \
+	do_sprofile.c
 
 ifeq ($(CONFIG_ARCH), i386)
 KERNEL_SYSTEM_SRCS +=  \
